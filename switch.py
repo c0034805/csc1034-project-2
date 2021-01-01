@@ -129,7 +129,7 @@ class Switch:
 
         top_card = self.discards[-1]
         hand_sizes = len([p.hand for p in self.players])
-        UI.print_player_info(player, top_card, hand_sizes)
+        UI.print_player_info(player, top_card, hand_sizes, len(player.hand))
 
         # determine discardable cards
         discardable = []

@@ -19,9 +19,10 @@ def print_game_menu():
     print("2 - Exit")
 
 
-def print_player_info(player, top_card, hands):
+def print_player_info(player, top_card, hands, cards):
     """display player information and public game state"""
     print(f"\nHANDS: {hands}")
+    print(f"IN HAND: {cards}")
     print(f"PLAYER: {player.name}")
     if not player.is_ai:
         print("HAND: " + ", ".join(str(card) for card in player.hand))
