@@ -31,3 +31,5 @@
 * v1.1.11 [2021-01-02]: Fixed the queen draw-four rule not working.
 
 * v1.1.12 [2021-01-02]: Fixed issue where the game crushed before running.
+
+* v1.1.13 [2021-01-02]: Fixed issue where Queens and Aces couldn't always be discarded.
