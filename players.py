@@ -48,12 +48,12 @@ class SimpleAI:
     def append(self, card):
         self.hand.append(card)
 
-    def select_card(self, choices, _):
+    def select_card(self, choices):
         """Select a card to be discarded
 
         Randomly chooses one of the choices.
         """
-        return random.choice(
+        return random.choice(choices)
 
     def ask_for_swap(self, others):
         """Select a card to be discarded

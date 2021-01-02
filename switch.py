@@ -1,6 +1,6 @@
 """Main module of the switch card game"""
 import random
-from players import player_classes
+from players import player_classes, SimpleAI
 import user_interface as UI
 
 from cards import generate_deck
@@ -138,7 +138,10 @@ class Switch:
 
         # have player select card
         hands = self.get_normalized_hand_sizes(player)
-        card = player.select_card(discardable, hands) if discardable else None
+        if not isinstance(player, SimpleAI):
+            card = player.select_card(discardable, hands) if discardable else None
+        else:
+            card = SimpleAI.select_card(player, discardable) if discardable else None
 
         if card:
             # discard card and determine whether player has won

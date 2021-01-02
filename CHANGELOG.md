@@ -19,3 +19,5 @@
 * v1.1.5 [2021-01-02]: Fixed hand-switching subroutine.
 
 * v1.1.6 [2021-01-02]: Fixed adding cards to hand.
+
+*v1.1.7 [2021-01-02]: Fixed simple AI, now makes random choices from the list of discardable cards, not the entire hand.
