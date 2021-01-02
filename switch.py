@@ -192,7 +192,7 @@ class Switch:
             # draw stock card
             card = self.stock.pop()
             # and add to hand
-            player.hand.append(card)
+            player.append(card)
         return i
 
     def discard_card(self, player, card):

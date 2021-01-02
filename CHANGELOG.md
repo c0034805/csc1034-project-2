@@ -17,3 +17,5 @@
 * v1.1.4 [2021-01-02]: Fixed discard input interface.
 
 * v1.1.5 [2021-01-02]: Fixed hand-switching subroutine.
+
+* v1.1.6 [2021-01-02]: Fixed adding cards to hand.

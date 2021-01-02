@@ -14,6 +14,9 @@ class Player:
         self.name = name
         self.hand = []
 
+    def append(self, card):
+        self.hand.append(card)
+
     @staticmethod
     def select_card(choices, _):
         """Select a card to be discarded
@@ -41,6 +44,9 @@ class SimpleAI:
     def __init__(self, name):
         self.name = name
         self.hand = []
+
+    def append(self, card):
+        self.hand.append(card)
 
     def select_card(self, choices, _):
         """Select a card to be discarded
