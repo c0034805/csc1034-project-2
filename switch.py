@@ -228,6 +228,9 @@ class Switch:
             others = [p for p in self.players if p is not player]
             choice = player.ask_for_swap(others)
             self.swap_hands(player, choice)
+        # if card is a queen, next player needs to draw four
+        elif card.value == 'Q':
+            self.draw4 = True
 
     def draw_and_discard(self, player):
         """Draw a card from stock and discard it if possible.
