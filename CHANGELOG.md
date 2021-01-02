@@ -8,3 +8,6 @@
   This version is known to contain some bugs.
 
 * v1.1.1 [2021-01-01]: Amount of cards held by each player is now displayed.
+
+* v1.1.2 [2021-01-02]: Fixed issue where no matter who won it was always the player who played second that was displayed
+                       as the winner.
