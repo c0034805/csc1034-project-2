@@ -13,3 +13,5 @@
                        as the winner.
   
 * v1.1.3 [2021-01-02]: Simple or Smart AI is now assigned randomly to AI players.
+
+* v1.1.4 [2021-01-02]: Fixed discard input interface.
