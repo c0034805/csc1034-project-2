@@ -11,3 +11,5 @@
 
 * v1.1.2 [2021-01-02]: Fixed issue where no matter who won it was always the player who played second that was displayed
                        as the winner.
+  
+* v1.1.3 [2021-01-02]: Simple or Smart AI is now assigned randomly to AI players.
