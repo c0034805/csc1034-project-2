@@ -26,6 +26,8 @@
 
 * v1.1.9 [2021-01-02]: Fixed player object creation.
 
-v1.1.10 [2021-01-02]: Fixed issue where players drew four cards each turn.
+* v1.1.10 [2021-01-02]: Fixed issue where players drew four cards each turn.
 
-v1.1.11 [2021-01-02]: Fixed the queen draw-four rule not working.
+* v1.1.11 [2021-01-02]: Fixed the queen draw-four rule not working.
+
+* v1.1.12 [2021-01-02]: Fixed issue where the game crushed before running.
