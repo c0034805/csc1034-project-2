@@ -25,3 +25,5 @@
 * v1.1.8 [2021-01-02]: Fixed the direction of the game.
 
 * v1.1.9 [2021-01-02]: Fixed player object creation.
+
+v1.1.10 [2021-01-02]: Fixed issue where players drew four cards each turn.
