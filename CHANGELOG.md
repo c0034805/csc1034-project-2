@@ -37,3 +37,5 @@
 * v1.1.14 [2021-01-02]: Fixed the MockPlayer class in the test suite so mock players can add cards to their hand.
 
 * v1.1.15 [2021-01-02]: Fixed duplicate value in the list of card values.
+
+* v1.2.0 [2021-01-02]: Fixed the subroutine that checks if Queen can always be discarded in the test suite.
