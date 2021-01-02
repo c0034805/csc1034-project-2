@@ -20,6 +20,8 @@
 
 * v1.1.6 [2021-01-02]: Fixed adding cards to hand.
 
-*v1.1.7 [2021-01-02]: Fixed simple AI, now makes random choices from the list of discardable cards, not the entire hand.
+* v1.1.7 [2021-01-02]: Fixed simple AI, now makes random choices from the list of discardable cards, not the entire hand.
 
-*v1.1.8 [2021-01-02]: Fixed the direction of the game.
+* v1.1.8 [2021-01-02]: Fixed the direction of the game.
+
+* v1.1.9 [2021-01-02]: Fixed player object creation.
