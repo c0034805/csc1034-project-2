@@ -13,6 +13,9 @@ class MockPlayer:
         self.name = "Mock player"
         self.hand = hand
 
+    def append(self, card):
+        self.hand.append(card)
+
     @staticmethod
     def select_card(choices, _):
         """Select a card to be discarded

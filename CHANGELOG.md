@@ -33,3 +33,5 @@
 * v1.1.12 [2021-01-02]: Fixed issue where the game crushed before running.
 
 * v1.1.13 [2021-01-02]: Fixed issue where Queens and Aces couldn't always be discarded.
+
+* v1.1.14 [2021-01-02]: Fixed the MockPlayer class in the test suite so mock players can add cards to their hand.
