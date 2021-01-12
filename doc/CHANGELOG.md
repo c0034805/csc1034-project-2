@@ -43,3 +43,5 @@
 * v1.3.0 [2021-01-12]: Added quality of life features. Player order and next player now displayed.
 
 * v1.3.1 [2021-01-12]: Fixed typo.
+
+* v1.3.2 [2021-01-12]: Fixed typo.
