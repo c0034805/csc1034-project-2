@@ -39,3 +39,5 @@
 * v1.1.15 [2021-01-02]: Fixed duplicate value in the list of card values.
 
 * v1.2.0 [2021-01-02]: Fixed the subroutine that checks if Queen can always be discarded in the test suite.
+
+* v1.3.0 [2021-01-12]: Added quality of life features. Player order and next player now displayed.

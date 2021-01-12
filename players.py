@@ -33,6 +33,9 @@ class Player:
         """
         return UI.select_player(others)
 
+    def __repr__(self):
+        return f"{self.name} (Human)"
+
 
 class SimpleAI:
     """Simple computer strategy
@@ -62,6 +65,9 @@ class SimpleAI:
         """
         return random.choice(others)
 
+    def __repr__(self):
+        return f"{self.name} (Simple AI)"
+
 
 class SmartAI(SimpleAI):
     """Smarter computer strategy
@@ -69,18 +75,20 @@ class SmartAI(SimpleAI):
     This player makes choices based on observations of the
     current game state.
     """
+
     def select_card(self, choices, hands):
         """Select a card to be discarded
 
         Selects a card that either harms opponents or
         chooses a suit that the player holds many cards of.
         """
+
         def score(card):
             in_suit = len([c for c in self.hand
                            if c.suit == card.suit and c is not card])
 
             offset = {
-                'J': 3*(hands[0]-1-min(hands[1:])),
+                'J': 3 * (hands[0] - 1 - min(hands[1:])),
                 'Q': 6 + in_suit,
                 '2': 4 + in_suit,
                 '8': 2 + in_suit,
@@ -102,6 +110,9 @@ class SmartAI(SimpleAI):
         smallest = min(len(p.hand) for p in others)
         best = [p for p in others if len(p.hand) == smallest]
         return random.choice(best)
+
+    def __repr__(self):
+        return f"{self.name} (Smart AI)"
 
 
 player_classes = {

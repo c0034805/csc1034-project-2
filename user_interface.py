@@ -19,11 +19,22 @@ def print_game_menu():
     print("2 - Exit")
 
 
-def print_player_info(player, top_card, hands, cards):
+def print_player_info(player, top_card, hands, cards, players, direction):
     """display player information and public game state"""
     print(f"\nHANDS: {hands}")
-    print(f"IN HAND: {cards}")
     print(f"PLAYER: {player.name}")
+    print(f"IN HAND: {cards}")
+    if direction == 1:
+        print("PLAYER ORDER: " + str(players))
+    else:
+        print("PLAYER ORDER: " + str(players[::-1]))
+    for i in range(len(players)):
+        if players[i] == players[len(players)-1]:
+            print("NEXT PLAYER: " + str(players[0]))
+            break
+        elif player == players[i]:
+            print("NEXT PLAYER: " + str(players[i+1]))
+            break
     if not player.is_ai:
         print("HAND: " + ", ".join(str(card) for card in player.hand))
     print(f"TOP CARD: {top_card}")
