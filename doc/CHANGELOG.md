@@ -41,3 +41,5 @@
 * v1.2.0 [2021-01-02]: Fixed the subroutine that checks if Queen can always be discarded in the test suite.
 
 * v1.3.0 [2021-01-12]: Added quality of life features. Player order and next player now displayed.
+
+* v1.3.1 [2021-01-12]: Fixed typo.
